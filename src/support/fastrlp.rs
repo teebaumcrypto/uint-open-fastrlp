@@ -4,7 +4,7 @@
 
 use crate::Uint;
 use core::mem::size_of;
-use fastrlp::{BufMut, Decodable, DecodeError, Encodable, Header};
+use open_fastrlp::{BufMut, Decodable, DecodeError, Encodable, Header};
 
 /// Allows a [`Uint`] to be serialized as RLP.
 ///
