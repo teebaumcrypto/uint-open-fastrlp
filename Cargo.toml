@@ -21,6 +21,7 @@ dyn = ["dep:smallvec"]
 generic_const_exprs = []
 postgres = ["dep:postgres-types", "dep:bytes"]
 sqlx = ["dep:sqlx-core"]
+fastrlp = ["open-fastrlp"]
 
 [[bench]]
 name = "criterion"
